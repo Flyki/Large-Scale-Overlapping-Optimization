@@ -1,7 +1,7 @@
 # Large-Scale-Overlapping-Optimization
 
 1) This is the large-scale overlapping benchmark functions created based on f13 and f14 of the CEC2013 LSGO Benchmark.
-There are totally 12 functions here.
+Here are totally 12 functions.
 
 2) The first four functions f1 to f4 are built based on the schwefel function; f5 to f8 are built based on the elliptic function; f9 to f12 are built based on the rastrigin function. Schwefel function and elliptic function are unimodal; Rastrigin is multimodal which is harder to be optimized than the other two functions.
 
