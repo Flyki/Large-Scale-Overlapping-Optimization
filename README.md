@@ -11,4 +11,4 @@ There are totally 12 functions here.
 
 5) f1 and f2 of this benchmark are exactly f13 and f14 of CEC2013 LSGO Benchmark.
 
-6) 6 extra weight files are offered that be used to replace the original weight files. The weight file of each function is "FX-w.txt".
+6) 6 extra weight files are offered that can be used to replace the original weight files. The weight file of each function is "FX-w.txt".
