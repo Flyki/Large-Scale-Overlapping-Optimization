@@ -1,6 +1,6 @@
 # Large-Scale-Overlapping-Optimization
 
-1) This is the large-scale overlapping benchmark functions created based on f13 and f14 of the CEC2013 LSGO Benchmark.
+1) This is the large-scale overlapping benchmark functions created based on f13 and f14 of the CEC2013 LSGO Benchmark with the CBCCO algorithm.
 Here are totally 12 functions.
 
 2) The first four functions f1 to f4 are built based on the schwefel function; f5 to f8 are built based on the elliptic function; f9 to f12 are built based on the rastrigin function. Schwefel function and elliptic function are unimodal; Rastrigin is multimodal which is harder to be optimized than the other two functions.
@@ -12,3 +12,9 @@ Here are totally 12 functions.
 5) f1 and f2 of this benchmark are exactly f13 and f14 of CEC2013 LSGO Benchmark.
 
 6) 6 extra weight files are offered that can be used to replace the original weight files. The weight file of each function is "FX-w.txt".
+
+7) CBOG_CBD represents the CBCCO algorithm and CBOCC is the main file.
+
+8) Two CMAESO files are just used to packing the CMA-ES algorithm. The original code of CMA-ES can be found http://cma.gforge.inria.fr/cmaes_sourcecode_page.html#C. Please use the C++ version.
+
+9) An example of the partition file is shown in 1po.txt and 1oo.txt which represent the grouping file and overlapping variable file, respectively.
